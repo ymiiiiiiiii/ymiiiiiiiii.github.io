@@ -13,6 +13,27 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        @media screen and (max-width: 450px) {
+            .nav {
+                padding: 20px;
+            }
+
+            .nav input:checked~.menu {
+                width: 70vw;
+            }
+
+            .nav input {
+                width: 20px;
+                height: 20px;
+            }
+
+            .nav span {
+                left: calc(30px/2);
+                width: 30px;
+                height: 4px;
+            }
+        }
     </style>
 </head>
 
